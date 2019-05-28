@@ -70,7 +70,7 @@ offsetTop | Number，此元素距离顶部多少像素时开始固定在顶部�
 
 ##### 手动显示表头:   
 场景：当页面滚动后，这时再刷新页面，表头可能不会显示。   
-解决方案：在页面启动调用eleFixed.handler();即可。   
+解决方案：在页面加载后调用eleFixed.handler();即可。   
 ```html
 <script>
     // show eleFixed
